@@ -41,7 +41,7 @@ export const multiEventBinders = _ => {
 }
 
 const getDay = day => {
-    const days = ['SUN', 'MONDAY', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+    const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
     const daysIndex = new Date(day * 1000).getDay();
     return days[daysIndex];
 }
